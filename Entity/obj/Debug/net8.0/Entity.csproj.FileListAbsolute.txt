@@ -9,3 +9,15 @@ C:\Users\farshad\VSCode_Projects\ProjBranchInfo\Entity\obj\Debug\net8.0\Entity.d
 C:\Users\farshad\VSCode_Projects\ProjBranchInfo\Entity\obj\Debug\net8.0\refint\Entity.dll
 C:\Users\farshad\VSCode_Projects\ProjBranchInfo\Entity\obj\Debug\net8.0\Entity.pdb
 C:\Users\farshad\VSCode_Projects\ProjBranchInfo\Entity\obj\Debug\net8.0\ref\Entity.dll
+C:\Users\IT7200\Documents\GitHub\ProjBranchInfo\Entity\bin\Debug\net8.0\Entity.deps.json
+C:\Users\IT7200\Documents\GitHub\ProjBranchInfo\Entity\bin\Debug\net8.0\Entity.dll
+C:\Users\IT7200\Documents\GitHub\ProjBranchInfo\Entity\bin\Debug\net8.0\Entity.pdb
+C:\Users\IT7200\Documents\GitHub\ProjBranchInfo\Entity\obj\Debug\net8.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IT7200\Documents\GitHub\ProjBranchInfo\Entity\obj\Debug\net8.0\Entity.AssemblyInfoInputs.cache
+C:\Users\IT7200\Documents\GitHub\ProjBranchInfo\Entity\obj\Debug\net8.0\Entity.AssemblyInfo.cs
+C:\Users\IT7200\Documents\GitHub\ProjBranchInfo\Entity\obj\Debug\net8.0\Entity.csproj.CoreCompileInputs.cache
+C:\Users\IT7200\Documents\GitHub\ProjBranchInfo\Entity\obj\Debug\net8.0\Entity.sourcelink.json
+C:\Users\IT7200\Documents\GitHub\ProjBranchInfo\Entity\obj\Debug\net8.0\Entity.dll
+C:\Users\IT7200\Documents\GitHub\ProjBranchInfo\Entity\obj\Debug\net8.0\refint\Entity.dll
+C:\Users\IT7200\Documents\GitHub\ProjBranchInfo\Entity\obj\Debug\net8.0\Entity.pdb
+C:\Users\IT7200\Documents\GitHub\ProjBranchInfo\Entity\obj\Debug\net8.0\ref\Entity.dll

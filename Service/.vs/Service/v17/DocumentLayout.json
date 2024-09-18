@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\IT7200\\source\\repos\\GitHub\\ProjBranchInfo\\Service\\",
+  "WorkspaceRootPath": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Service\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1664A395-402C-4BF5-9BA0-411651369FF8}|Service\\Service.csproj|c:\\users\\it7200\\source\\repos\\github\\projbranchinfo\\service\\service\\placeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1664A395-402C-4BF5-9BA0-411651369FF8}|Service\\Service.csproj|solutionrelative:service\\placeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1664A395-402C-4BF5-9BA0-411651369FF8}|Service\\Service.csproj|c:\\users\\it7200\\documents\\github\\projbranchinfo\\service\\service\\infoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1664A395-402C-4BF5-9BA0-411651369FF8}|Service\\Service.csproj|solutionrelative:service\\infoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1664A395-402C-4BF5-9BA0-411651369FF8}|Service\\Service.csproj|c:\\users\\it7200\\source\\repos\\github\\projbranchinfo\\service\\service\\infoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1664A395-402C-4BF5-9BA0-411651369FF8}|Service\\Service.csproj|solutionrelative:service\\infoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1664A395-402C-4BF5-9BA0-411651369FF8}|Service\\Service.csproj|c:\\users\\it7200\\documents\\github\\projbranchinfo\\service\\service\\placeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1664A395-402C-4BF5-9BA0-411651369FF8}|Service\\Service.csproj|solutionrelative:service\\placeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,24 +42,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PlaceService.cs",
-              "DocumentMoniker": "C:\\Users\\IT7200\\source\\repos\\GitHub\\ProjBranchInfo\\Service\\Service\\PlaceService.cs",
+              "DocumentMoniker": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Service\\Service\\PlaceService.cs",
               "RelativeDocumentMoniker": "Service\\PlaceService.cs",
-              "ToolTip": "C:\\Users\\IT7200\\source\\repos\\GitHub\\ProjBranchInfo\\Service\\Service\\PlaceService.cs",
+              "ToolTip": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Service\\Service\\PlaceService.cs",
               "RelativeToolTip": "Service\\PlaceService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T04:13:48.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "InfoService.cs",
-              "DocumentMoniker": "C:\\Users\\IT7200\\source\\repos\\GitHub\\ProjBranchInfo\\Service\\Service\\InfoService.cs",
+              "DocumentMoniker": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Service\\Service\\InfoService.cs",
               "RelativeDocumentMoniker": "Service\\InfoService.cs",
-              "ToolTip": "C:\\Users\\IT7200\\source\\repos\\GitHub\\ProjBranchInfo\\Service\\Service\\InfoService.cs",
+              "ToolTip": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Service\\Service\\InfoService.cs",
               "RelativeToolTip": "Service\\InfoService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

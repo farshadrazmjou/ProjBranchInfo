@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IT7200\\source\\repos\\GitHub\\ProjBranchInfo\\Service\\Service\\Service.csproj": {}
+    "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Service\\Service\\Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IT7200\\source\\repos\\GitHub\\ProjBranchInfo\\Contract\\Contract.csproj": {
+    "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Contract\\Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IT7200\\source\\repos\\GitHub\\ProjBranchInfo\\Contract\\Contract.csproj",
+        "projectUniqueName": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Contract\\Contract.csproj",
         "projectName": "Contract",
-        "projectPath": "C:\\Users\\IT7200\\source\\repos\\GitHub\\ProjBranchInfo\\Contract\\Contract.csproj",
+        "projectPath": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Contract\\Contract.csproj",
         "packagesPath": "C:\\Users\\IT7200\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IT7200\\source\\repos\\GitHub\\ProjBranchInfo\\Contract\\obj\\",
+        "outputPath": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Contract\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\IT7200\\source\\repos\\GitHub\\ProjBranchInfo\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\IT7200\\source\\repos\\GitHub\\ProjBranchInfo\\Entity\\Entity.csproj"
+              "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Entity\\Entity.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\IT7200\\source\\repos\\GitHub\\ProjBranchInfo\\Entity\\Entity.csproj": {
+    "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IT7200\\source\\repos\\GitHub\\ProjBranchInfo\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\IT7200\\source\\repos\\GitHub\\ProjBranchInfo\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\IT7200\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IT7200\\source\\repos\\GitHub\\ProjBranchInfo\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -138,14 +138,14 @@
         }
       }
     },
-    "C:\\Users\\IT7200\\source\\repos\\GitHub\\ProjBranchInfo\\Service\\Service\\Service.csproj": {
+    "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Service\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IT7200\\source\\repos\\GitHub\\ProjBranchInfo\\Service\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Service\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\IT7200\\source\\repos\\GitHub\\ProjBranchInfo\\Service\\Service\\Service.csproj",
+        "projectPath": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Service\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\IT7200\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IT7200\\source\\repos\\GitHub\\ProjBranchInfo\\Service\\Service\\obj\\",
+        "outputPath": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Service\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -167,8 +167,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\IT7200\\source\\repos\\GitHub\\ProjBranchInfo\\Contract\\Contract.csproj": {
-                "projectPath": "C:\\Users\\IT7200\\source\\repos\\GitHub\\ProjBranchInfo\\Contract\\Contract.csproj"
+              "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Contract\\Contract.csproj": {
+                "projectPath": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Contract\\Contract.csproj"
               }
             }
           }
