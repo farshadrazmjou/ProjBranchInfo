@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Contract\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1027D0-86D8-4A7C-AB1A-1FFC3C29BE2D}|Contract.csproj|c:\\users\\it7200\\documents\\github\\projbranchinfo\\contract\\dto\\placeaddrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1027D0-86D8-4A7C-AB1A-1FFC3C29BE2D}|Contract.csproj|solutionrelative:dto\\placeaddrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1027D0-86D8-4A7C-AB1A-1FFC3C29BE2D}|Contract.csproj|c:\\users\\it7200\\documents\\github\\projbranchinfo\\contract\\iplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1027D0-86D8-4A7C-AB1A-1FFC3C29BE2D}|Contract.csproj|solutionrelative:iplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1027D0-86D8-4A7C-AB1A-1FFC3C29BE2D}|Contract.csproj|c:\\users\\it7200\\documents\\github\\projbranchinfo\\contract\\dto\\placeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1027D0-86D8-4A7C-AB1A-1FFC3C29BE2D}|Contract.csproj|solutionrelative:dto\\placeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1027D0-86D8-4A7C-AB1A-1FFC3C29BE2D}|Contract.csproj|c:\\users\\it7200\\documents\\github\\projbranchinfo\\contract\\dto\\inforesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1027D0-86D8-4A7C-AB1A-1FFC3C29BE2D}|Contract.csproj|solutionrelative:dto\\inforesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlaceAddRequest.cs",
+              "DocumentMoniker": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Contract\\DTO\\PlaceAddRequest.cs",
+              "RelativeDocumentMoniker": "DTO\\PlaceAddRequest.cs",
+              "ToolTip": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Contract\\DTO\\PlaceAddRequest.cs",
+              "RelativeToolTip": "DTO\\PlaceAddRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T10:14:07.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InfoResponse.cs",
+              "DocumentMoniker": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Contract\\DTO\\InfoResponse.cs",
+              "RelativeDocumentMoniker": "DTO\\InfoResponse.cs",
+              "ToolTip": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Contract\\DTO\\InfoResponse.cs",
+              "RelativeToolTip": "DTO\\InfoResponse.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAmwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T09:41:28.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlaceResponse.cs",
+              "DocumentMoniker": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Contract\\DTO\\PlaceResponse.cs",
+              "RelativeDocumentMoniker": "DTO\\PlaceResponse.cs",
+              "ToolTip": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Contract\\DTO\\PlaceResponse.cs",
+              "RelativeToolTip": "DTO\\PlaceResponse.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAqwDUAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T09:35:32.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPlace.cs",
+              "DocumentMoniker": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Contract\\IPlace.cs",
+              "RelativeDocumentMoniker": "IPlace.cs",
+              "ToolTip": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Contract\\IPlace.cs",
+              "RelativeToolTip": "IPlace.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T08:02:06.301Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

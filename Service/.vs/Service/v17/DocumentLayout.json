@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,28 +42,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlaceService.cs",
-              "DocumentMoniker": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Service\\Service\\PlaceService.cs",
-              "RelativeDocumentMoniker": "Service\\PlaceService.cs",
-              "ToolTip": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Service\\Service\\PlaceService.cs",
-              "RelativeToolTip": "Service\\PlaceService.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T04:13:48.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "InfoService.cs",
               "DocumentMoniker": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Service\\Service\\InfoService.cs",
               "RelativeDocumentMoniker": "Service\\InfoService.cs",
               "ToolTip": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Service\\Service\\InfoService.cs",
               "RelativeToolTip": "Service\\InfoService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T04:09:23.339Z",
+              "WhenOpened": "2024-09-18T08:31:01.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlaceService.cs",
+              "DocumentMoniker": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Service\\Service\\PlaceService.cs",
+              "RelativeDocumentMoniker": "Service\\PlaceService.cs",
+              "ToolTip": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Service\\Service\\PlaceService.cs",
+              "RelativeToolTip": "Service\\PlaceService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T08:30:46.276Z",
               "EditorCaption": ""
             }
           ]

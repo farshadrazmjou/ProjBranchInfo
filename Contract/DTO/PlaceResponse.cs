@@ -31,6 +31,22 @@ public class PlaceResponse
             Code=Code,
             Grade=Grade
         };
+
+    public override bool Equals(object? obj)
+    {
+        PlaceResponse? other = obj as PlaceResponse;
+        if (other == null) 
+            return false;
+        return other.Name==Name && other.Code==Code && other.Grade==Grade && other.Address==Address && other.Id==Id;
+    }
+
+    public override int GetHashCode() =>
+        base.GetHashCode();
+    
+
+    public override string ToString() =>
+        $"Id : {Id} , Name : {Name} , Code : {Code} , Grade : {Grade} , Address : {Address}";
+ 
 }
 
 public static class PlaceExtension

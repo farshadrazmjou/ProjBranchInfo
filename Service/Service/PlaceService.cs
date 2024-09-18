@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Service
 {
-    internal class PlaceService : IPlace
+    public class PlaceService : IPlace
     {
         public Task<PlaceResponse> AddAsync(PlaceAddRequest? placeAddRequest)
         {
