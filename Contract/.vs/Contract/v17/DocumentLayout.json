@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Contract\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E1027D0-86D8-4A7C-AB1A-1FFC3C29BE2D}|Contract.csproj|c:\\users\\it7200\\documents\\github\\projbranchinfo\\contract\\dto\\placeaddrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E1027D0-86D8-4A7C-AB1A-1FFC3C29BE2D}|Contract.csproj|solutionrelative:dto\\placeaddrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E1027D0-86D8-4A7C-AB1A-1FFC3C29BE2D}|Contract.csproj|c:\\users\\it7200\\documents\\github\\projbranchinfo\\contract\\contract.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9E1027D0-86D8-4A7C-AB1A-1FFC3C29BE2D}|Contract.csproj|solutionrelative:contract.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E1027D0-86D8-4A7C-AB1A-1FFC3C29BE2D}|Contract.csproj|c:\\users\\it7200\\documents\\github\\projbranchinfo\\contract\\iplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,20 +45,16 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlaceAddRequest.cs",
-              "DocumentMoniker": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Contract\\DTO\\PlaceAddRequest.cs",
-              "RelativeDocumentMoniker": "DTO\\PlaceAddRequest.cs",
-              "ToolTip": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Contract\\DTO\\PlaceAddRequest.cs",
-              "RelativeToolTip": "DTO\\PlaceAddRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T10:14:07.383Z",
+              "Title": "Contract",
+              "DocumentMoniker": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Contract\\Contract.csproj",
+              "RelativeDocumentMoniker": "Contract.csproj",
+              "ToolTip": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Contract\\Contract.csproj",
+              "RelativeToolTip": "Contract.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-22T09:43:36.101Z",
               "EditorCaption": ""
             },
             {
@@ -71,8 +67,7 @@
               "RelativeToolTip": "DTO\\InfoResponse.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAmwDIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T09:41:28.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T09:41:28.722Z"
             },
             {
               "$type": "Document",
@@ -84,8 +79,7 @@
               "RelativeToolTip": "DTO\\PlaceResponse.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAqwDUAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T09:35:32.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T09:35:32.545Z"
             },
             {
               "$type": "Document",
@@ -95,7 +89,7 @@
               "RelativeDocumentMoniker": "IPlace.cs",
               "ToolTip": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\Contract\\IPlace.cs",
               "RelativeToolTip": "IPlace.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAIwBQAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T08:02:06.301Z",
               "EditorCaption": ""

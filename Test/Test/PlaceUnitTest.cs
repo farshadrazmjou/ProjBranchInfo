@@ -183,17 +183,121 @@ namespace Test
 
         #endregion
 
+        #region Update
 
         [Fact]
-        public async Task test()
+        public async Task Update_NullArgument()
         {
             // Arrange
 
             // Act
 
             // Assert
+            await Assert.ThrowsAsync<ArgumentNullException>(async () => {
+                await _placeService.UpdateAsync(null);
+            });
+        }
+
+        [Fact]
+        public async Task Update_InvalidData()
+        {
+            // Arrange
+            PlaceAddRequest placeAddRequest = new PlaceAddRequest()
+            {
+                Name = "Shiraz",
+                Address = "shiraz zand street",
+                Code = 7201,
+                Grade = 1
+            };
+            PlaceResponse placeResponse_from_add = await _placeService.AddAsync(placeAddRequest);
+
+            // Act
+            PlaceUpdateRequest placeUpdateRequest = placeResponse_from_add.ToPlaceUpdateRequest();
+
+            placeUpdateRequest.Id = Guid.NewGuid();
+            placeUpdateRequest.Name = "Kousar";
+            placeUpdateRequest.Address = "Shiraz, Zand st";
+            placeUpdateRequest.Code = 7302;
+
+            // Assert
+            await Assert.ThrowsAsync<InvalidDataException>( async () => {
+                await _placeService.UpdateAsync(placeUpdateRequest);
+            });
 
         }
+
+        [Fact]
+        public async Task Update_Successfully()
+        {
+            // Arrange
+            PlaceAddRequest placeAddRequest = new PlaceAddRequest()
+            {
+                Name = "Shiraz",
+                Address = "shiraz zand street",
+                Code = 7201,
+                Grade = 1
+            };
+            PlaceResponse placeResponse_from_add = await _placeService.AddAsync(placeAddRequest);
+
+            // Act
+            PlaceUpdateRequest placeUpdateRequest = placeResponse_from_add.ToPlaceUpdateRequest();
+
+            placeUpdateRequest.Name = "Kousar";
+            placeUpdateRequest.Address = "Shiraz, Zand st";
+            placeUpdateRequest.Code = 7302;
+
+            PlaceResponse placeResponse_from_update= await _placeService.UpdateAsync(placeUpdateRequest);
+            PlaceResponse placeResponse_from_get=await _placeService.GetByIdAsync(placeUpdateRequest.Id);
+
+            // Assert
+            Assert.Equal(placeResponse_from_update,placeResponse_from_add);
+        }
+
+        #endregion
+
+        #region Search
+
+        [Fact]
+        public async Task Search_InvalidData()
+        {
+            // Arrange
+            string searchField = "";
+            // Act
+
+            // Assert
+            await Assert.ThrowsAsync<InvalidDataException>( async () => {  
+                await _placeService.SearchAsync(searchField,"shiraz"); 
+            });
+        }
+
+        [Fact]
+        public async Task Search_Successfully()
+        {
+            // Arrange
+
+            List<PlaceResponse> placeResponse_list = new List<PlaceResponse>();
+            foreach (PlaceAddRequest placeAddRequest in get_PlacesData())
+            {
+                placeResponse_list.Add(await _placeService.AddAsync(placeAddRequest));
+            }
+
+            List<PlaceResponse> placeResponse_list_from_get = placeResponse_list.Where(temp => temp.Name == "Zand").ToList();
+            // Act
+
+            List<PlaceResponse> placeResponse_list_from_search = await _placeService.SearchAsync(nameof(PlaceResponse.Name), "Zand");
+
+            // Assert
+            Assert.True(placeResponse_list_from_get.Count == placeResponse_list_from_search.Count);
+            for (int i = 0; i < placeResponse_list_from_get.Count; i++)
+            {
+                Assert.Equal(placeResponse_list_from_get[i], placeResponse_list_from_search[i]);
+            }
+
+        }
+
+        #endregion
+
+
 
     }
 }
