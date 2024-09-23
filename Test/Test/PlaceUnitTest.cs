@@ -1,5 +1,6 @@
 using System.Security.Principal;
 using Contract.DTO;
+using Contract.Enums;
 using Service;
 
 namespace Test
@@ -297,7 +298,32 @@ namespace Test
 
         #endregion
 
+        #region Sort
 
+        [Fact]
+        public async void Sort_Successfully()
+        {
+            // Arrange
+            List<PlaceResponse> placeResponses = new List<PlaceResponse>();
+
+            foreach(PlaceAddRequest placeAddRequest in get_PlacesData())
+            {
+                placeResponses.Add(await _placeService.AddAsync(placeAddRequest));
+            }
+
+            List<PlaceResponse> placeResponses_from_lambda = placeResponses.OrderBy(temp => temp.Name).ToList();
+
+            // Act
+            List<PlaceResponse> placeResponses_from_sort = await _placeService.SortAsync(placeResponses, nameof(PlaceResponse.Name), SortOrder.Ascending);
+
+            // Assert
+            for (int i = 0;i< placeResponses_from_lambda.Count;i++)
+            {
+                Assert.Equal(placeResponses_from_lambda[i], placeResponses_from_sort[i]);
+            }
+        }
+
+        #endregion
 
     }
 }
