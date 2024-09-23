@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "4YS6kjzWj0/50cSdQfyVC5kH/mX7XQ7gTzu9bVFs/Sg=",
+  "Source": "WebApplication1",
+  "BasePath": "_content/WebApplication1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApplication1\\wwwroot",
+      "Source": "WebApplication1",
+      "ContentRoot": "C:\\Users\\IT7200\\Documents\\GitHub\\ProjBranchInfo\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
