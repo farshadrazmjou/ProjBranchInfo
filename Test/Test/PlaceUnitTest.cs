@@ -1,16 +1,31 @@
 using System.Security.Principal;
 using Contract.DTO;
+<<<<<<< Updated upstream
+=======
+using Contract.Enums;
+using Entity;
+using EntityFrameworkCoreMock;
+using Microsoft.EntityFrameworkCore;
+>>>>>>> Stashed changes
 using Service;
 
 namespace Test
 {
     public class PlaceUnitTest
     {
-        PlaceService _placeService;
+        PlaceService _placeService;        
 
         public PlaceUnitTest()
         {
-            _placeService = new PlaceService();
+            DbContextMock<PlaceInfoDbContext> dbContextMock=
+                new DbContextMock<PlaceInfoDbContext>(new DbContextOptionsBuilder<PlaceInfoDbContext>().Options);
+
+            PlaceInfoDbContext dbContext= dbContextMock.Object;
+
+            List<Place> places=new List<Place>();
+            dbContextMock.CreateDbSetMock(temp => temp.Places,places);
+
+            _placeService = new PlaceService(dbContext);
         }
 
         List<PlaceAddRequest> get_PlacesData()
@@ -35,10 +50,11 @@ namespace Test
         [Fact]
         public async Task AddAsync_NullArgument()
         {
+            PlaceAddRequest? placeAddRequest=null;
             // Assert
             await Assert.ThrowsAsync<ArgumentNullException>(async () => {
                 // Act
-                await _placeService.AddAsync(null);
+                await _placeService.AddAsync(placeAddRequest);
             });
         }
 

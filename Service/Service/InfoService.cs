@@ -1,11 +1,19 @@
 ﻿using Contract;
 using Contract.DTO;
 using Contract.Enums;
+using Entity;
 
 namespace Service
 {
     public class InfoService : IInfo
     {
+        PlaceInfoDbContext _db;
+
+        public InfoService(PlaceInfoDbContext dbContext)
+        {
+            _db=dbContext;
+        }
+
         public Task<InfoResponse> AddAsync(InfoAddRequest? infoAddRequest)
         {
             throw new NotImplementedException();

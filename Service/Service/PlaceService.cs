@@ -1,6 +1,8 @@
 ﻿using Contract;
 using Contract.DTO;
 using Contract.Enums;
+using Entity;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,14 +13,42 @@ namespace Service
 {
     public class PlaceService : IPlace
     {
-        public Task<PlaceResponse> AddAsync(PlaceAddRequest? placeAddRequest)
+
+        PlaceInfoDbContext _db;
+
+        public PlaceService(PlaceInfoDbContext dbContext)
         {
-            throw new NotImplementedException();
+            _db=dbContext;
         }
 
-        public Task<bool> DeleteAsync(Guid? Id)
+        public async Task<PlaceResponse> AddAsync(PlaceAddRequest? placeAddRequest)
         {
-            throw new NotImplementedException();
+            
+            if(placeAddRequest==null)
+                throw new ArgumentNullException();
+
+            Place place_for_add=placeAddRequest.ToPlace();
+            await _db.Places.AddAsync(place_for_add);
+            int count=await _db.SaveChangesAsync();
+            if(count==0)
+                throw new Exception("Place was not add");
+
+            return place_for_add.ToPlaceResponse();
+        }
+
+        public async Task<bool> DeleteAsync(Guid? Id)
+        {
+            if(Id==null)
+                throw new ArgumentNullException();
+            Place? place_for_delete=await _db.Places.Where(p => p.Id==Id).FirstOrDefaultAsync();
+            if(place_for_delete==null)
+                throw new InvalidDataException();
+            
+            _db.Places.Remove(place_for_delete);
+            int count=await _db.SaveChangesAsync();
+            if(count>1)
+                return true;
+            return false;
         }
 
         public Task<List<PlaceResponse>> GetAllAsync()

@@ -33,3 +33,8 @@ C:\Users\farshad\Documents\GitHub\ProjBranchInfo\Entity\obj\Debug\net8.0\Entity.
 C:\Users\farshad\Documents\GitHub\ProjBranchInfo\Entity\obj\Debug\net8.0\refint\Entity.dll
 C:\Users\farshad\Documents\GitHub\ProjBranchInfo\Entity\obj\Debug\net8.0\Entity.pdb
 C:\Users\farshad\Documents\GitHub\ProjBranchInfo\Entity\obj\Debug\net8.0\ref\Entity.dll
+<<<<<<< Updated upstream
+=======
+C:\Users\IT7200\Documents\GitHub\ProjBranchInfo\Entity\obj\Debug\net8.0\Entity.csproj.AssemblyReference.cache
+C:\Users\farshad\Documents\GitHub\ProjBranchInfo\Entity\obj\Debug\net8.0\Entity.csproj.AssemblyReference.cache
+>>>>>>> Stashed changes
